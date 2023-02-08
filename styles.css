@@ -1,0 +1,131 @@
+body{
+  background-color: #134b47;
+}
+h2{
+  margin-bottom: 32px;
+}
+.title{
+  color: black;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+.txt{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+#hero .heroimg{
+  background-image: url("Images/hero.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.btn1{
+  position: absolute; /* or absolute */
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.btn1:hover{
+  background-color: black;
+  border: none;
+  padding: 20px 42px;
+}
+.pressed{
+  background-color: black;
+  border: none;
+  padding: 15px 32px;
+}
+
+/*page 2*/
+
+.txt2{
+  text-align: left;
+  padding: 12% 4%;
+  color: white;
+}
+.title2{
+  font-size: 3rem;
+}
+.cot{
+  color: white;
+  text-align: left;
+  position: relative;
+  top: 90px;
+  font-size: 1.5rem;
+}
+.expl{
+
+  width: auto;
+  font-size: 2rem;
+}
+.img2{
+  margin: 16% 10%;
+  background-image: url("Images/dress.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 800px; /* You must set a specified height */
+  width: 650px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.peace{
+  background-image: url("Images/peacee.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.why{
+  padding: 4% 2%;
+  height: 25rem;
+  color: black;
+  background-color: white;
+}
+.txtalg {
+  text-align: center;
+}
+.crdcon{
+  margin: 4% 0%;
+}
+.pricol{
+  padding-bottom: 2%;
+  margin-bottom: 8px;
+}
+
+.imgsze{
+  border-radius: 8px;
+  margin-bottom: 8px;
+  height: 80%;
+  width: 90%;
+}
+.card-body{
+  text-align: center;
+}
+.icons{
+  height: 32px;
+  margin: 16px;
+}
